@@ -40,14 +40,14 @@ ul {
 }
 
 #nav ul li a {
-  color: #aaa;
+  color: #888;
   text-decoration: none;
   padding: 15px;
   font-size: 1.2em;
 }
 
 #nav ul li.active {
-  color: #000;
+  color: #aaa;
   background: #fff;
   border-color: #333;
   border-style: solid;
@@ -61,6 +61,8 @@ ul {
 #header h2 em {
   color: #ccc;
 }
+
+#contentwrapper { background: #fff;}
 
 #content, #sidebar {
   margin: 40px 0 20px 0;
@@ -79,7 +81,7 @@ ul {
 
 #content p {
   font-size: 1.2em;
-  padding: 0 0 10px;
+  padding: 0 0 10p x;
 }
 
 
@@ -100,6 +102,17 @@ ul {
   margin: 20px 20px 20px 20px;
   padding: 0 5px 10;
   font-size: 1.2em;
+}
+
+#content ul.testimonial li {
+  background: #fff;
+  border: solid 1px #aaa;
+  padding: 10px;
+  margin: 15px 0 15px 0;
+}
+
+#content ul.testimonial p {
+  margin: 0 0 12px;
 }
 
 #sidebar ul li {
@@ -127,4 +140,8 @@ ul {
   text-align: right;
 }
 
-#footer a:link {color: #000000; text-decoration: none; } 
+#footer a:link {color: #000000; text-decoration: none; }
+
+a.glowing {
+  color: #0af;
+}
