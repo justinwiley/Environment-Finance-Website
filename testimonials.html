@@ -15,9 +15,8 @@
   <!--[if IE]><link rel="stylesheet" href="stylesheets/ie.css" type="text/css" media="screen, projection"><![endif]-->
 
   <script type="text/javascript" charset="utf-8">
-    $(document).ready(function() { $('#mast,#nav ul,#footer,ul.testimonial li').dropShadow(); });
+    if(!jQuery.browser.safari) $(document).ready(function() { $('#mast,#nav ul,#footer,ul.testimonial li').dropShadow(); });
   </script>
-
 </head><body>
 
   <div id="wrap" class="container">

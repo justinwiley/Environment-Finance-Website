@@ -3,12 +3,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>Environment Finance Enterprises - Lorem ipsum dolor, and consectetur since 1776</title>
   
+  <link rel="icon" type="image/png" href="favicon.ico" />
+  
   <script src="javascript/jquery-1.3.2.js" type="text/javascript" charset="utf-8"></script>
   <script src="javascript/jquery.dropshadow.js" type="text/javascript" charset="utf-8"></script>
 
-  <link rel="icon" type="image/png" href="favicon.ico" />
-
-  <!-- Framework CSS -->
   <link rel="stylesheet" href="stylesheets/reset.css" type="text/css" media="screen, projection">
   <link rel="stylesheet" href="stylesheets/screen.css" type="text/css" media="screen, projection">
   <link rel="stylesheet" href="stylesheets/print.css" type="text/css" media="print">
@@ -16,7 +15,7 @@
   <!--[if IE]><link rel="stylesheet" href="stylesheets/ie.css" type="text/css" media="screen, projection"><![endif]-->
 
   <script type="text/javascript" charset="utf-8">
-    $(document).ready(function() { $('#mast,#nav ul,#footer,ul.testimonial li').dropShadow(); });
+    if(!jQuery.browser.safari) $(document).ready(function() { $('#mast,#nav ul,#footer,ul.testimonial li').dropShadow(); });
   </script>
 </head><body>
 
