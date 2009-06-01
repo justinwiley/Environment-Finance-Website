@@ -1,4 +1,3 @@
-
 body {
   margin: 0;
   padding: 0;
@@ -27,35 +26,41 @@ ul {
 
 #mast { margin: 10px 0 0 0;}
 
-#nav { margin: 0px; padding: 0px;}
-
-#nav ul {
-  float: right;
+#nav {
+  width: 930px;
+  padding: 8px;
+  background: #333;
+  text-align: center;
 }
 
 #nav ul li {
-  float: left;
-  padding: 10px 15px 10px 32px;
-  background: #333;
+  display: inline;
+  padding: 20px;
 }
 
 #nav ul li a {
   color: #888;
+  padding: 20px;      /* spacing between nav items */
   text-decoration: none;
-  padding: 15px;
   font-size: 1.2em;
 }
 
 #nav ul li.active {
-  color: #aaa;
+  padding: 20px;
   background: #fff;
-  border-color: #333;
-  border-style: solid;
-  border-left-width: 7px;
 }
 
-#nav ul li:hover {
-  background: #fff;
+#nav ul li.active a {
+  font-weight: bold;
+  color: #555;
+}
+
+#nav ul li:hover a {
+  color: #333;
+}
+
+#nav ul li:hover {  
+  background: #fff;  
 }
 
 #header h2 em {
@@ -90,7 +95,10 @@ ul {
 }
 
 #sidebar {
-  margin: 15px 0 0 15px;
+	margin-top: 40px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 15px;
 }
 
 #sidebar p {
@@ -141,7 +149,3 @@ ul {
 }
 
 #footer a:link {color: #000000; text-decoration: none; }
-
-a.glowing {
-  color: #0af;
-}
